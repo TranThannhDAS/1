@@ -1,0 +1,41 @@
+.dangerouslySet {
+  word-break: break-all;
+  img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+  }
+  iframe {
+    height: 175px;
+    margin: auto;
+  }
+  p {
+    font-size: 13px;
+  }
+  @media (min-width: 768px) {
+    img {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+      margin: auto;
+    }
+    iframe {
+      width: 600px;
+      height: 360px;
+      margin: auto;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+.font {
+  font-family: "Mazda type", sans-serif !important;
+}
+.hover:hover {
+  div,
+  h3 {
+    box-shadow: 0 0 5px;
+  }
+}

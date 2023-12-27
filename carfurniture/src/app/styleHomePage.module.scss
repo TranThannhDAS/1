@@ -1,0 +1,54 @@
+.mySwiper {
+  position: unset !important;
+  padding: 8px !important;
+  .swiper-pagination {
+    bottom: -4px !important;
+  }
+}
+
+.containerProductTag {
+  .nameTag,
+  .desTag {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    p {
+      word-break: break-all;
+    }
+    img,
+    iframe {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .news {
+    width: 100%;
+    border-bottom: 1px solid rgb(138, 138, 138);
+  }
+}
+.news .hh3 {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #483234;
+  color: white;
+}
+.news .hh4 {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #483234;
+  color: white;
+}
+.description {
+  word-break: break-all;
+  img,
+  iframe {
+    display: none;
+  }
+  p {
+    font-size: 14px;
+    word-break: break-all;
+  }
+}

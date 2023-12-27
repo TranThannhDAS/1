@@ -1,0 +1,6 @@
+CAMERA 3 MẮT CHO XE MAZDA (CÓ MAZDA CONNECT)
+- Bộ cam tùy chọn phiên bản mắt thường hoặc mắt rộng
+- Cắm zắc zin hoàn toàn, không cắt chích hệ thống điện của xe
+- Tích hợp hiển thị camera trước khi vào số D 
+- Tích hợp tự động hiển thị cam gương theo xinhan
+- Chỉ hiện thị camera khi xe di chuyển với tốc độ dưới 15km/h

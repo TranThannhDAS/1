@@ -1,0 +1,40 @@
+.slideImageOneChild1 {
+  animation: slideImageOneChild1 1s linear forwards;
+  top: -220px;
+}
+.slideImageOneChild2 {
+  animation: slideImageOneChild2 1s linear forwards;
+  bottom: -220px;
+}
+@keyframes slideImageOneChild1 {
+  100% {
+    top: 0;
+  }
+}
+@keyframes slideImageOneChild2 {
+  100% {
+    bottom: 0;
+  }
+}
+
+.animationSlideText {
+  font-family: "Mazda type", sans-serif;
+  animation: animationSlideText 0.2s linear forwards;
+}
+.animationSlideTextH3 {
+  font-family: "Mazda type", sans-serif;
+}
+@keyframes animationSlideText {
+  100% {
+    top: 0px;
+  }
+}
+.slideOneOne {
+  box-shadow: 3px 5px 3px #333333;
+}
+.bk {
+  background-color: aliceblue;
+  .swiper-pagination {
+    bottom: 0px !important;
+  }
+}

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nextjs:
+    build: ./
+    expose:
+      - "3000"
+  nginx:
+    build: ./nginx
+    ports:
+    - "8080:80"
